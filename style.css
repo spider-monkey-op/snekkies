@@ -1,74 +1,90 @@
-@import url('https://rsms.me/inter/inter.css');
+* {
+    margin: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
 body {
-  background: #000;
-  font-family: Inter, sans-serif;
-  font-weight: 800;
-  margin: 0;
-}
-.container {
-  height: 200vh;
-  width: 100vw;
-}
-.top {
-  background: #fff;
-  height: 100vh;
-  overflow: hidden;
-  width: 100vw;
+    display: block;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+    min-height: 100vh;
 }
 img {
-    object-fit: contain;
+    width: 100%;
+    height: auto
 }
-.image {
-  height: 100vmax;
-  left: calc(50% - 75vmax);
-  width: 150vmax;
-  top: calc(50% - 50vmax);;
-  position: absolute;
+#mainBackground {
+    width: 100%;
 }
-.image2 {
-  opacity: var(--opacity);
-}
-#left {
+#snekkieDragon{
+    display: block;
     position: absolute;
+    top: 0;
     left: 0;
+    width: 56.4%;
 }
-.top-title {
-  color: white;
-  font-size: 12vmax;
-  letter-spacing: 0.5vmax;
-  position: absolute;
-  top: calc(40% - 6vmax);
-  left: 0;
-  text-align: center;
-  transform: translateX(var(--moveY));
-  width: 100%;
+#snekkieCounting {
+    position: absolute;
+    display: block;
+    width: 28.89%;
+    top: 0;
+    left: 0;
+    margin-left: 40.56%;
+    margin-top: 48.46%;
 }
-.bottom {
-  color: white;
-  height: 100vh;
+#snekkieCart {
+    position: absolute;
+    display: block;
+    width: 27.4%;
+    top: 0;
+    left: 0;
+    margin-left: 12.31%;
+    margin-top: 19.47%;
 }
-.bottom-title {
-  box-sizing: border-box;
-  font-size: 40px;
-  padding-top: 70px;
-  text-align: center;
-  width: 100%;
+#snekkieMine {
+    position: absolute;
+    display: block;
+    width: 25.28%;
+    top: 0;
+    left: 0;
+    margin-left: 38.15%;
+    margin-top: 79.44%;
 }
-.bottom-body {
-  box-sizing: border-box;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 50px 40px 0;
-  text-align: center;
-  width: 100%;
+#snekkieHole {
+    position: absolute;
+    display: block;
+    width: 9.72%;
+    top: 0;
+    left: 0;
+    margin-left: 18.43%;
+    margin-top: 118.03%;
 }
-@media (max-width: 677px) {
-  .bottom-body {
-    font-size: 16px;
-    line-height: 22px;
-    padding: 30px 20px 0;
-  }
+#snekkiePickaxe {
+    position: absolute;
+    display: block;
+    width: 33.43%;
+    top: 0;
+    left: 0;
+    margin-left: 50.65%;
+    margin-top: 119.59%;
+}
+#snekkieSleeping {
+    position: absolute;
+    display: block;
+    width: 12.5%;
+    top: 0;
+    left: 0;
+    margin-left: 80.28%;
+    margin-top: 159.8%;
+}
+#snekkieMap {
+    position: absolute;
+    display: block;
+    width: 36.01%;
+    top: 0;
+    left: 0;
+    margin-left: 49.07%;
+    margin-top: 178.28%;
 }
